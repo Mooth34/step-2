@@ -1,0 +1,133 @@
+body {
+    /* This is the body text which is used for most of the design, like paragraphs, lists, etc. */
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    /* Dark 75% */
+    color: rgba(31, 32, 65, 0.75);
+}
+
+h1 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+h2 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+h3 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #1F2041;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.palette {
+    /* Group */
+    position: absolute;
+    width: 275px;
+    height: 610px;
+    left: 149.74px;
+    top: 145px;
+}
+
+.color {
+    position: relative;
+    width: 270px;
+    height: 70px;
+    padding: 10px;
+}
+
+.rect {
+    /* Rectangle 2 */
+    position: relative;
+    width: 70px;
+    height: 70px;
+    float: left;
+    border-radius: 6px;
+}
+
+.dark_shade_100 {
+    background: #1F2041;
+}
+
+.dark_shade_75 {
+    background: rgba(31, 32, 65, 0.75);
+}
+
+.dark_shade_50 {
+    background: rgba(31, 32, 65, 0.5);
+}
+
+.dark_shade_25 {
+    background: rgba(31, 32, 65, 0.25);
+}
+
+.dark_shade_5 {
+    background: rgba(31, 32, 65, 0.05);
+}
+
+.purple {
+    background: #BC9CFF;
+}
+
+.green {
+    background: #6FCF97;
+}
+
+.rect-desc {
+    position: relative;
+    width: 160px;
+    height: 57px;
+    float: right;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #1F2041;
+    padding-left: 30px;
+}
+
+.headings {
+    position: absolute;
+    width: 403px;
+    height: 321px;
+    left: 846px;
+    top: 145px;
+}
+
+li {
+    padding-bottom: 25px;
+}
+
+label {
+    color: rgba(31, 32, 65, 0.25);
+}
